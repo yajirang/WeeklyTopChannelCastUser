@@ -7,14 +7,14 @@ const frameMetadata = getFrameMetadata({
     
     {
       //action: 'tx',
-      label: 'Check Allowance',
+      label: 'Check Casts Count',
       //target: `${NEXT_PUBLIC_URL}/api/tx`,
       //postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     }, 
 
-    {
+    /* {
       label: 'My tickets',
-    },
+    }, */
     
     /* {
       action: 'tx',
@@ -28,16 +28,16 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: '1.91:1',
   },
   input: {
-    text: 'Type channel you want to see',
+    text: 'Type channel you want to check',
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame_allow`,
 });
 
 export const metadata: Metadata = {
-  title: 'Wild Allowance check',
+  title: 'Check Weekly Top Channel Cast User',
   description: 'LFG',
   openGraph: {
-    title: 'Wild Allowance check',
+    title: 'Check Weekly Top Channel Cast User',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
