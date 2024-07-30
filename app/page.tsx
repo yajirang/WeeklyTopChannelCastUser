@@ -15,21 +15,21 @@ const frameMetadata = getFrameMetadata({
     {
       label: 'My tickets',
     },
-
-    {
+    
+    /* {
       action: 'tx',
       label: 'Send Base Sepolia',
       target: `${NEXT_PUBLIC_URL}/api/tx`,
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
-    },
+    }, */
   ],
   image: {
     src: `${NEXT_PUBLIC_URL}/park-3.png`,
     aspectRatio: '1.91:1',
   },
-/*   input: {
-    text: 'Tell me a story',
-  }, */
+  input: {
+    text: 'Type channel you want to see',
+  },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame_allow`,
 });
 
