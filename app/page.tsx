@@ -30,7 +30,7 @@ const frameMetadata = getFrameMetadata({
   input: {
     text: 'Type channel you want to check',
   },
-  postUrl: `${NEXT_PUBLIC_URL}/api/frame_allow`,
+  postUrl: `${NEXT_PUBLIC_URL}/api/frame_result`,
 });
 
 export const metadata: Metadata = {
